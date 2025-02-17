@@ -20,6 +20,6 @@ def test_main():
     ), "Expected 'timezones' to be a dictionary"
 
     # Then: Each expected timezone should be present in the response
-    expected_timezones = ["Africa/Johannesburg", "America/New_York"]
+    expected_timezones = ["Africa/Johannesburg", "America/New_York", "Europe/Paris"]
     for tz in expected_timezones:
         assert tz in data["timezones"], f"Expected timezone {tz} in response"
