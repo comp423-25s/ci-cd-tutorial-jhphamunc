@@ -12,5 +12,5 @@ rm kubectl oc.tgz README.md
 popd
 
 # Install Python Packages
-pip install --upgrade pip
+pip install --upgrade pip u
 pip install -r requirements.txt
